@@ -1,4 +1,9 @@
-
+#about, 
+#projects, 
+#contact {
+  border: white 1px solid;
+  background-color: coral;
+}
 
 h3 {
   border-bottom: 4px solid grey;
@@ -115,6 +120,3 @@ img.mySlides {
   max-height:300px;
 }
 
-#about, #projects, #contact {
-  border: grey 10px solid;
-}
