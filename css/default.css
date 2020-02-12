@@ -5,7 +5,8 @@
 }
 
 .panel {
-  width: 300px;
+  width: 60%;
+  border: 1px solid grey;
 }
 
 h3 {
