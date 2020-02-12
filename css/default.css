@@ -115,6 +115,6 @@ img.mySlides {
   max-height:300px;
 }
 
-#about {
-
+#project {
+  border: grey 4px solid;
 }
