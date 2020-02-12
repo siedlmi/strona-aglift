@@ -4,6 +4,10 @@
   border: white 1px solid;
 }
 
+.panel {
+  width: 300px;
+}
+
 h3 {
   border-bottom: 4px solid grey;
 }
