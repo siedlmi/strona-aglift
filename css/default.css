@@ -40,15 +40,6 @@ img.siatka {
   max-height:300px;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-  background: black;
-  max-height: 20%;
-}
-
-img.mySlides {
-}
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
