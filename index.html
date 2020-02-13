@@ -6,32 +6,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/changew3.css">
 <link rel="stylesheet" type="text/css" href="css/default.css" />
-<!-- <script src="js/mySlides.js"></script>-->
-  
- <script> 
-// Slideshows
-var slideIndex = 1;
-var x = document.getElementsByClassName("mySlides");
-   
-function plusDivs(n) {
-  slideIndex = slideIndex + n;
-  showDivs(slideIndex);
-}
+<script src="js/mySlides.js"></script>
 
-function showDivs(n) {
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-
-showDivs(1)
-  </script>
-  
-  
-  <body>
+<body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
