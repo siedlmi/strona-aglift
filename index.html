@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/changew3.css">
-<link rel="stylesheet" type="text/css" href="css/default.css" />
 <link rel="icon" href="data:,">
 
 <body>
@@ -25,8 +24,8 @@
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="images/elev1.jpg" alt="Architecture" width=100% height=10%>
+<header class="w3-display-container w3-content w3-wide" style="max-width:100 viewport" id="home">
+  <img class="w3-image" src="images/elev2.jpg" alt="Architecture" width=100% height=10%>
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>AG</b></span> <span class="w3-hide-small w3-text-light-grey"><i>LIFT</i></span></h1>
   </div>
@@ -106,15 +105,10 @@
 <!-- Page content -->
 <div class="w3-content w3-display-container">
   <img class="mySlides" src="images/klasztor1.png">
-  <img class="mySlides" src="images/klasztor1.png">
-  <img class="mySlides" src="images/klasztor1.png">
-  <div class="w3-center w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
-  </div>
+  <img class="mySlides" src="images/test.jpg">
+  <img class="mySlides" src="images/test2.jpg">
+  <img class="mySlides" src="images/test3.jpg">
+  <img class="mySlides" src="images/samochodowy.jpg">
 </div>
 
 
@@ -133,7 +127,7 @@
     </ul>
     </div>
     <div class="panel">
-      <img src="images/certyfikat.png" height=auto style="position:relative">
+      <img src="images/certyfikat.png" align="left" max-width="20%" style="position:relative">
     </div>
   </div>
 </br>
@@ -144,15 +138,15 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
     <!--  <img src="images/" alt="Andrzej" style="width:100%"> -->
       <h3>Andrzej Granicki</h3>
-      <p class="w3-opacity">CEO & Założyciel</p>
-      <p>W branży dźwigowej pracuję od 1991 roku. Nadzorowałem dostawę i montaż  blisko 350 dźwigów. Współpracowałem z krajowymi i międzynarodowymi firmami dźwigowymi. W styczniu 2015 r. założyłem własną firmę pod nazwą AG Lift Andrzej Granicki.</p>
+      <p class="w3-opacity">Założyciel</p>
+      <p>W branży dźwigowej pracuje od 1991 roku. Nadzorował dostawę i montaż blisko 350 dźwigów. Współpracował z krajowymi i międzynarodowymi firmami dźwigowymi. W styczniu 2015 r. założył własną firmę pod nazwą AG Lift Andrzej Granicki.</p>
       <p><button class="w3-button w3-light-grey w3-block">Kontakt</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
      <!-- <img src="images/" alt="Iza" style="width:100%"> -->
       <h3>Izabela Siedlecka</h3>
       <p class="w3-opacity">Inżynier Sprzedaży</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p>Odpowiada za realizowanie polityki sprzedaży firmy poprzez nawiązywanie i utrzymywanie kontaktów z klientami indywidualnymi oraz współpracę z dostawcami. Rozpoznaje także oczekiwania klientów, udziela im pomocy w wyborze odpowiednich produktów lub rozwiązań firmy oraz zapewnia fachowe doradztwo techniczne.</p>
       <p><button class="w3-button w3-light-grey w3-block">Kontakt</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -163,7 +157,7 @@
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Kontakt</h3>
     <p>Skontaktuj się z nami by porozmawiać o nowym projekcie!</p>
-    <form action="http://127.0.0.1:8001/action_page.php" method="POST">
+    <form action="/action_page.php" method="POST">
       <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">

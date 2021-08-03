@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+config-opts=
+run-opts=
+prefix=/home/siedlmi7/.cache/gnome-builder/install/strona-aglift/host
+app-id=
+postbuild=
+prebuild=
+default=true

@@ -26,14 +26,15 @@
 $name =  "";
 
 if(isset($_POST['submit'])){
-    $to = "mi.siedlecki@gmail.com"; // this is your Email address
+    $to = "biuro@aglift.pl"; // this is your Email address
     $from = $_POST['Email']; // this is the sender's Email address
     $name = $_POST['Name'];
     $subject = $_POST['Subject'];
     $body = $_POST['Body'];
     $message = $name . " wrote the following:" . "\n\n" . $body;
-    $headers = "From:" . $from;
+    $headers = "From:" . $to;
     mail($to,$subject,$message,$headers);
+    mail($from,$subject,$message,$headers);
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     // You cannot use header and echo together. It's one or the other.
     }
@@ -42,7 +43,7 @@ if(isset($_POST['submit'])){
 <body>
 <header>
     <div class="w3-display-middle w3-margin-top w3-center">
-<h1><?= "Mail Sent. Thank you " . $name . ", we will contact you shortly."; ?></h1>
+<h1><?= "Dziękujemy za zgłoszenie " . $name . ", skontaktujemy się z Tobą po zapoznaniu się z zapytaniem."; ?></h1>
 </div>
 
 </header>
