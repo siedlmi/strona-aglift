@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/changew3.css">
-<link rel="stylesheet" type="text/css" href="css/default.css" />
 <link rel="icon" href="data:,">
 
 <!-- Navbar (sit on top) -->
@@ -14,10 +13,10 @@
     <a href="index.html#home" class="w3-bar-item w3-button"><span class="w3-black"><b>AG</b></span> Lift</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#offer" class="w3-bar-item w3-button">Oferta</a>
-      <a href="#projects" class="w3-bar-item w3-button">Realizacje</a>
-      <a href="#about" class="w3-bar-item w3-button">O Nas</a>
-      <a href="#contact" class="w3-bar-item w3-button">Kontakt</a>
+      <a href="index.html#offer" class="w3-bar-item w3-button">Oferta</a>
+      <a href="index.html#projects" class="w3-bar-item w3-button">Realizacje</a>
+      <a href="index.html#about" class="w3-bar-item w3-button">O Nas</a>
+      <a href="index.html#contact" class="w3-bar-item w3-button">Kontakt</a>
     </div>
   </div>
 </div>
