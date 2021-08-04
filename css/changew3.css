@@ -149,3 +149,16 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#080064!important}
 .w3-border-light-grey,.w3-hover-border-light-grey:hover,.w3-border-light-gray,.w3-hover-border-light-gray:hover{border-color:#f1f1f1!important}
 .w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
+.mySlides {
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.small {
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+}
